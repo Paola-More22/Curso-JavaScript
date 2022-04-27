@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    padding: 10px;
+}
+header{
+    padding: 30px;
+    margin: auto;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+p{
+    margin-top: 20px;
+}
+main{
+    color: black;
+    margin: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    height: 300px;
+    width: 320px;
+    display:inline-block;
+    border-radius: 25px;
+    background-color:rgb(240, 237, 234);
+    padding: 28px;
+}
+h3{
+    margin-bottom: 20px;
+
+}
+label{
+    display: block;
+}
+input{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    background: #33F6C4;
+}
+button{
+    margin-top: 20px;
+    border: none;
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+#sectionCuadrado{
+    background-color: #00F2B5;
+    color: white;
+}
+#sectionTriangulo{
+    background-color: #BDAFDA;
+    color: white;
+}
+#sectionCirculo{
+    background-color: #FFC771;
+    color: white;
+}
+div{
+    margin: auto;
+    text-align:left;
+   
+}
+div button{
+    background-color: white;
+    margin-right: 10px;
+}
+#buttonCuadrado{
+    color: #00F2B5;
+}
+
