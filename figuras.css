@@ -7,11 +7,11 @@ body{
     padding: 10px;
 }
 header{
-    padding: 30px;
+    padding: 10px;
     margin: auto;
     text-align:center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: blueviolet;
+    color: black;
 }
 p{
     margin-top: 20px;
@@ -25,36 +25,46 @@ main{
     align-items: center;
 }
 section{
-    height: 300px;
+    height: 400px;
     width: 320px;
     display:inline-block;
     border-radius: 25px;
-    background-color:rgb(240, 237, 234);
     padding: 28px;
 }
 h3{
     margin-bottom: 20px;
-
 }
 label{
     display: block;
+    font-size: 14.5px;
 }
 input{
-    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     border: none;
     border-radius: 5px;
-    padding: 10px;
+    padding: 10px 0px 10px 10px;
     outline: none;
-    background: #33F6C4;
+    width: 97%;
+}
+#inputCuadrado{
+    background: white;
+    color: black;
+}
+#inputTriangulo{
+    background: white;
+    color: black;
+}
+#inputCirculo{
+    background: white;
+    color: black;
 }
 button{
     margin-top: 20px;
     border: none;
     color: white;
-    padding: 15px 15px;
+    padding: 12px 12px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -76,13 +86,27 @@ button{
 div{
     margin: auto;
     text-align:left;
-   
 }
 div button{
     background-color: white;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 #buttonCuadrado{
     color: #00F2B5;
+    font-weight: bold;
 }
-
+#buttonTriangulo{
+    color: #BDAFDA;
+    font-weight: bold;
+}
+#buttonCirculo{
+    color: #FFC771;
+    font-weight: bold;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+input[type=number] { -moz-appearance:textfield; }
