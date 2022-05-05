@@ -14,7 +14,7 @@
 - 3ero: Crear funciones
 - 4to: Integrar JS con HTML
 
-## Taller #2: Promedio, mediana y moda
+## Taller #3: Promedio, mediana y moda
 - 1ero: Definir las fórmulas
 - 2do: Implementar las fórmulas en javascript
 - 3ero: Crear funciones
