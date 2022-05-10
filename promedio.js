@@ -16,7 +16,15 @@ function calcularMediaAritmetica(lista){
     return promedioLista;
 }
 
-// MEDIANA
+function clikCalcularpromedio(){
+    const inputDatos = document.getElementById("inputDatos");
+    const datos = inputDatos.value;
+    const valueArray = Array.from(datos.split(','),Number)
+    const promedio = calcularMediaAritmetica(valueArray);
+    document.getElementById("inputResultado").value = ("La Mediana es " + promedio);
+}
+
+// MEDIA
 function calcularMedia(list){
 
     let listOrder = list;
@@ -54,6 +62,14 @@ function calcularMedia(list){
 
     return mediana
 
+    function clikCalcularMedia(){
+        const inputDatos = document.getElementById("inputDatos");
+        const datos = inputDatos.value;
+        const valueArray = Array.from(datos.split(','),Number)
+        const media = calcularMedia(valueArray);
+        document.getElementById("inputResultado").value = ("La Media es " + media);
+    }
+
 }
 
 // MODA
@@ -79,35 +95,11 @@ function calcularModa(lista){
     return moda[0]
 }
 
-
-
-
-function clikCalcularpromedio(){
-    const inputDatos = document.getElementById("inputDatos");
-    const datos = inputDatos.value;
-    const valueArray = Array.from(datos.split(','),Number)
-    const promedio = calcularMediaAritmetica(valueArray);
-    document.getElementById("inputResultado").value = ("La Mediana es " + promedio);
-}
-
-function clikCalcularMedia(){
-    const inputDatos = document.getElementById("inputDatos");
-    const datos = inputDatos.value;
-    const valueArray = Array.from(datos.split(','),Number)
-    const media = calcularMedia(valueArray);
-    document.getElementById("inputResultado").value = ("La Media es " + media);
-}
-
 function clickCalcularModa(){
-    //console.log("Moda")
     const inputDatos = document.getElementById("inputDatos");
-    //console.log(inputDatos)
     const datos = inputDatos.value;
-    //console.log(datos)
     const valueArray = Array.from(datos.split(','),Number)
-    //console.log(valueArray)
     const moda = calcularModa(valueArray);
-    //console.log( console.log(valueArray))
     document.getElementById("inputResultado").value = ("La Moda es " + moda);
 
 }
